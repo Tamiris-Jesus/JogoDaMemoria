@@ -31,7 +31,7 @@ const checkEndGame = () =>{
   
   if(disabledCards.length === 20){
     clearInterval(this.loop);
-    alert(`Parabéns, ${spanPlayer.innerHTML}! você zerou o jogo. Seu tempo foi: ${timer.innerHTML} segundos`);
+    alert(`Parabéns, ${spanPlayer.innerHTML}! você zerou o jogo. Você concluiu em: ${timer.innerHTML} segundos`);
   }
 }
 
